@@ -1,6 +1,6 @@
 import './index.scss'
 import LogoW from '../../../assets/images/logo-w2.png'
-import gsap from 'gsap-trial'
+import gsap from 'gsap'
 import DrawSVGPlugin from 'gsap-trial/DrawSVGPlugin'
 import { useEffect, useRef } from 'react'
 
