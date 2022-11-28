@@ -1,7 +1,7 @@
 import './index.scss'
 import LogoW from '../../../assets/images/logo-w2.png'
 import gsap from 'gsap'
-import DrawSVGPlugin from 'gsap-trial/DrawSVGPlugin'
+import DrawSVGPlugin from 'gsap/DrawSVGPlugin'
 import { useEffect, useRef } from 'react'
 
 const Logo = () => {
