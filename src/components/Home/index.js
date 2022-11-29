@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import './index.scss';
 import AnimatedLetters from '../AnimatedLetters';
 import React,{ useEffect, useState } from 'react';
-import Logo from './Logo'
 import Loader from 'react-loaders';
 import 'loaders.css/src/animations/ball-grid-beat.scss';
 import Particle from './Particles/Particles';

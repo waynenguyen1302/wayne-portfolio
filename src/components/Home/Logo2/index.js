@@ -1,15 +1,15 @@
 import { motion } from 'framer-motion'
-import { React, useEffect, useRef } from 'react'
+import { React } from 'react'
 import LogoW from '../../../assets/images/logo-w2.png'
 import './index.scss'
 
-const svgVariants = {
-    hidden: { rotate: -180 },
-    visible: {
-        rotate: 0,
-        transition: { duration: 3}
-    }
-} 
+// const svgVariants = {
+//     hidden: { rotate: -180 },
+//     visible: {
+//         rotate: 0,
+//         transition: { duration: 3}
+//     }
+// } 
 const pathVariants = {
     hidden: {
         opacity: 0,
