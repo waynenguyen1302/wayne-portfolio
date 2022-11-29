@@ -53,7 +53,7 @@
 .container.skills-page {
     
     h1 {
-        font-size: 60px;
+        font-size: 65px;
         font-family: 'Coolvetica';
         color: #e88607;
         font-weight: 400;
@@ -89,7 +89,7 @@
         }
     }
     p{
-        font-size: 13px;
+        font-size: 15px;
         color: #0e0e0e;
         font-family: sans-serif;
         font-weight: 400;
@@ -143,6 +143,7 @@
                 position: initial;
                 transform: none;
                 width: 100%;
+                height: auto;
                 display: block;
                 padding: 20px;
                 box-sizing: border-box;

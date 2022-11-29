@@ -25,13 +25,14 @@ function TextSphere() {
           'Illustrator',
           'After Effect',
           'PHP',
-          "C#"
+          "C#",
+          'JQuery'
         ],
         {
           radius: 400,
           maxSpeed: 'fast',
           initSpeed: 'normal',
-          direction: 100,
+          direction: 130,
           keep: true,
           useContainerInlineStyles: false,
         },
