@@ -29,7 +29,7 @@ function Particle() {
                 },
                 "particles": {
                     "number": {
-                        "value": 15,
+                        "value": 10,
                         "density": {
                             "enable": false,
                             "value_area": 1200
