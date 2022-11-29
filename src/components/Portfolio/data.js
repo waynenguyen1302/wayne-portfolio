@@ -1,7 +1,7 @@
 const Portfolios = [
     {
         cover: "portfolio/nirvana/nirvana-cover.png",
-        image:"public/portfolio/nirvana/nirvana.png",
+        image:"portfolio/nirvana/nirvana.png",
         title: "Nirvana Spa",
         description: "Wordpress, HTML, CSS",
         url: "nirvana/nirvana.png"
