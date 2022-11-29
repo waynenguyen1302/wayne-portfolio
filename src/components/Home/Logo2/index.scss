@@ -1,0 +1,53 @@
+.cls-1,.cls-2{
+    fill: none; 
+    stroke-miterlimit: 20;
+    stroke-width: 3px;
+}
+    
+.cls-1{
+    stroke: #e68724;
+}
+
+.cls-2{
+    stroke:#000;
+}
+
+.container.svg {
+    width: 30%;
+    right: 25rem;
+    display: flex;
+    align-items: center;
+    position: absolute; 
+
+    .svg{
+        opacity: 0;
+        animation-delay: 4s;
+        animation: fadeOutAnimation ease 15s;
+        @keyframes fadeOutAnimation {
+            0% {
+                opacity: 1;
+            }
+            100% {
+                opacity: 0;
+            }
+        }
+    }
+
+}
+.solid-logo {
+    position: fixed;
+    width: 100%;
+    opacity: 0;
+    animation: fadeIn ease 6s;
+    animation-delay: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    @keyframes fadeInAnimation {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+}
