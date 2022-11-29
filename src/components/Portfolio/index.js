@@ -11,10 +11,15 @@
 
 
     useEffect(() => {
-        return  () => setTimeout(() => {
-          setLetterClass('text-animate-hover')
-        }, 3000)
-      }, []);
+        
+        let timeoutId = setTimeout(() => {
+            setLetterClass('text-animate-hover')
+        }, 4000)
+        
+        return () => {
+                    clearTimeout(timeoutId)
+                }
+    }, [])
     
     // const renderPortfolio = (portfolio) => {
     //     return (
