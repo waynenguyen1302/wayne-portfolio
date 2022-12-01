@@ -3,6 +3,7 @@ import './index.scss';
 import portfolioData from "./data";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleChevronLeft, faCircleChevronRight, faCircleXmark } from "@fortawesome/free-solid-svg-icons";
+import { motion } from "framer-motion";
 
 const Portfolios = () => {
     const [slideNumber,setSlideNumber] = useState(0)
@@ -41,9 +42,12 @@ const Portfolios = () => {
                             <FontAwesomeIcon icon={faCircleChevronRight} className='btnNext' onClick={nextImage} font-size="3em"/>
                         </div>
                                                     
-                        <div className='fullScreenImage'>
+                        <motion.div 
+                            initial={{ x: '-100vw' }}
+                            animate={{ x: 0 }}
+                            className='fullScreenImage'>
                             <img src={portfolioData[slideNumber].image} alt='' />
-                        </div>
+                        </motion.div>
                         
                                         
                     </div>
