@@ -3,7 +3,6 @@ import './index.scss';
 import portfolioData from "./data";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleChevronLeft, faCircleChevronRight, faCircleXmark } from "@fortawesome/free-solid-svg-icons";
-import { motion } from "framer-motion";
 
 const Portfolios = () => {
     const [slideNumber,setSlideNumber] = useState(0)
@@ -33,11 +32,7 @@ const Portfolios = () => {
     }
 
     return (
-            <motion.div
-                initial='initial'
-                animate='animate'
-                exit='exit'
-            >
+            <div>
                  {openModal && 
                     <div className='galleryWrap'>
                         <div class="all-btn">
@@ -81,7 +76,7 @@ const Portfolios = () => {
                 }  
                 </div>              
                           
-            </motion.div>
+            </div>
     )
 }
 
