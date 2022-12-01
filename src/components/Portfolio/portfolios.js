@@ -44,9 +44,9 @@ const Portfolios = () => {
                         </div>
                                                     
                         <motion.div 
-                            initial={{ y: '-100vh' }}
-                            animate={{ y: 0 }}
-                            transition = {{ duration: 0.5 }} 
+                            initial={{ scale: 0 }}
+                            animate={{ scale: 1 }}
+                            transition = {{ duration: 1 }} 
                             className='fullScreenImage'
                         >
                             <img src={portfolioData[slideNumber].image} alt='' />
