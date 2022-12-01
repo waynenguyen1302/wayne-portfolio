@@ -36,7 +36,6 @@ const Portfolios = () => {
             <div>
                  {openModal && 
                     <div className='galleryWrap'>
-                        <div className='gallery-background'></div>
                         <div class="all-btn">
                             <FontAwesomeIcon icon={faCircleXmark} className='btnClose' onClick={handleCloseModal}  font-size="3em"/>
                             <FontAwesomeIcon icon={faCircleChevronLeft} className='btnPrev' onClick={prevImage} font-size="3em"/>
