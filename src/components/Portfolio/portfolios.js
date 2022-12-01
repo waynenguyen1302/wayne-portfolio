@@ -35,8 +35,7 @@ const Portfolios = () => {
     return (
             <div>
                  {openModal && 
-                    <div
-                        className='galleryWrap'>
+                    <div className='galleryWrap'>
                         <div className='gallery-background'></div>
                         <div class="all-btn">
                             <FontAwesomeIcon icon={faCircleXmark} className='btnClose' onClick={handleCloseModal}  font-size="3em"/>
@@ -45,11 +44,13 @@ const Portfolios = () => {
                         </div>
                                                     
                         <motion.div 
-                        initial={{ y: '-100vh' }}
-                        animate={{ y: 0 }}
-                        transition = {{ duration: 0.5 }} className='fullScreenImage'>
+                            initial={{ y: '-100vh' }}
+                            animate={{ y: 0 }}
+                            transition = {{ duration: 0.5 }} 
+                            className='fullScreenImage'
+                        >
                             <img src={portfolioData[slideNumber].image} alt='' />
-                        </motion.div>             
+                        </motion.div>      
                                         
                     </div>
                 }
