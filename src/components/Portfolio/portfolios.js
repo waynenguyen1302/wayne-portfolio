@@ -38,7 +38,7 @@ const Portfolios = () => {
                     <motion.div 
                         initial={{ y: '100vh' }}
                         animate={{ y: 0 }}
-                        transition = {{ delay: 0.5, duration: 15 }}
+                        transition = {{ duration: 1 }}
                         className='galleryWrap'>
                         <div class="all-btn">
                             <FontAwesomeIcon icon={faCircleXmark} className='btnClose' onClick={handleCloseModal}  font-size="3em"/>
