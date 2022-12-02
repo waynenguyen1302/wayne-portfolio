@@ -30,12 +30,12 @@ const About = () => {
                         />
                     </h1>
                     <p>
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                        As an aspiring front-end developer learning to be full-stack, I find it fascinating to create and design things that solve real world problems. I value teamwork, efficiency and customer service.
                     </p>
                     <p>
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                        I have been using Microsoft Paint since Windows 96, many moons ago. As technology evolve, picking up new skills is a necessity. Whether it's Photoshop, Illustrator, or Animation, I'm not afraid of getting my hands dirty. I can't promise you a full episode of Tom and Jerry (who knows? may be I can if you ask), but the experience definitely allows me to come up with sleek and visually appealing websites while maintaining its functionality and usability.
                     </p>
-                    
+               
                 </div>
 
                 <div className='stage-cube-cont'>
