@@ -42,7 +42,7 @@ const Portfolios = () => {
                             <FontAwesomeIcon icon={faCircleChevronRight} className='btnNext' onClick={nextImage} font-size="3em"/>
                         </div>
                                                     
-                        <motion.div                           
+                        <div                           
                             className='fullScreenImage'
                         >
                             <motion.img 
@@ -50,7 +50,7 @@ const Portfolios = () => {
                                 animate={{ scale: 1 }}
                                 transition = {{ duration: 0.5 }} 
                                 src={portfolioData[slideNumber].image} alt='' />
-                        </motion.div>      
+                        </div>      
                                         
                     </div>
                 }
