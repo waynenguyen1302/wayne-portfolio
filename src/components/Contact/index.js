@@ -56,7 +56,7 @@ const Contact = () => {
                         />
                     </h1>
                     <p>
-                        Whether it's an opportunity, or you just want to talk. Send over your request and/or question, don't hesitate to contact me using the form below. I'll respond as soon as I can.
+                        Whether it's an opportunity, or you just want to talk. Send over your request and/or question, don't hesitate to contact me using the form below. 
                     </p>
                     <div className='contact-form'>
                         <form ref={refForm} onSubmit={sendEmail}>
