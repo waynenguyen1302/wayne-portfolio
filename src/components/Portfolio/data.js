@@ -4,28 +4,28 @@ const Portfolios = [
         image:"portfolio/nirvana/nirvana.png",
         title: "Nirvana Spa",
         description: "Wordpress, HTML, CSS",
-        url: "nirvana/nirvana.png"
+        url: ""
     },
     {
         cover: "portfolio/chayTO/chayTO-cover.png",
         image:"portfolio/chayTO/chayTO.png",
         title: "Chay Toronto",
         description: "Wordpress, HTML, CSS",
-        url: "http://google.com"
+        url: ""
     },
     {
         cover: "portfolio/dmc-college-project/dmc.png",
         image:"portfolio/dmc-college-project/dmc.png",
         title: "DMC - College Project",
         description: "HTML, CSS, JavaScript",
-        url: "http://google.com"
+        url: ""
     },
     {
         cover: "portfolio/smoothie-on-earth/smoothie-on-earth.png",
         image:"portfolio/smoothie-on-earth/smoothie-on-earth.png",
         title: "Smoothie On Earth",
         description: "HTML, CSS, JavaScript",
-        url: "http://google.com"
+        url: ""
     },
     {
         cover: "portfolio/toctoc-clone/toctoc-clone.png",
