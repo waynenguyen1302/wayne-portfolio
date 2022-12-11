@@ -67,7 +67,7 @@ const Portfolios = () => {
                                 />
                                 <div className="content" key={idx}>
                                     <p className="title">{port.title}</p>
-                                    {/* <h4 className="description">{port.description}</h4> */}
+                                    <h4 className="description">{port.description}</h4>
                                     <button className="btn" onClick={ () => handleOpenModal(idx)}>View</button>          
                                 </div>     
                                 {/* <div className="full-image">

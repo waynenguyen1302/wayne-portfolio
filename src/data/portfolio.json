@@ -5,28 +5,35 @@
             "image":"/portfolio/nirvana/nirvana.png",
             "title": "Nirvana Spa",
             "description": "Wordpress, HTML, CSS",
-            "url": "nirvana/nirvana.png"
+            "url": "/"
         },
         {
             "cover": "/portfolio/chayTO/chayTO-cover.png",
             "image":"/portfolio/chayTO/chayTO.png",
             "title": "Nirvana Spa",
             "description": "Wordpress, HTML, CSS",
-            "url": "http://google.com"
+            "url": "/"
         },
         {
             "cover": "/portfolio/nirvana/nirvana-cover.png",
             "image":"/portfolio/nirvana/nirvana.png",
             "title": "Nirvana Spa",
             "description": "Wordpress, HTML, CSS",
-            "url": "http://google.com"
+            "url": "/"
         },
         {
             "cover": "/portfolio/chayTO/chayTO-cover.png",
             "image":"/portfolio/chayTO/chayTO.png",
             "title": "Nirvana Spa",
             "description": "Wordpress, HTML, CSS",
-            "url": "http://google.com"
+            "url": "/"
+        },
+        {
+            "cover": "/portfolio/toctoc-clone/toctoc-clone.png",
+            "image":"/portfolio/toctoc-clone/toctoc-clone.png",
+            "title": "Toc Toc",
+            "description": "TypeScript, React, NEXTjs, Sanity",
+            "url": "https://toctoc-clone-wsmz.vercel.app/"
         }
     ]
 }
