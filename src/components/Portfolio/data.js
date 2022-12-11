@@ -28,8 +28,8 @@ const Portfolios = [
         url: "http://google.com"
     },
     {
-        cover: "/portfolio/toctoc-clone/toctoc-clone.png",
-        image:"/portfolio/toctoc-clone/toctoc-clone.png",
+        cover: "portfolio/toctoc-clone/toctoc-clone.png",
+        image:"portfolio/toctoc-clone/toctoc-clone.png",
         title: "TocToc Clone",
         description: "TypeScript, React, NEXTjs, Sanity",
         url: "https://toctoc-clone-wsmz.vercel.app/"
