@@ -33,7 +33,7 @@ const Portfolios = () => {
     }
 
     return (
-            <div>
+            <div className="portfolio-list">
                  {openModal && 
                     <div className='galleryWrap'>
                         <div class="all-btn">
