@@ -13,7 +13,7 @@ const Portfolios = () => {
     const handleOpenModal = (index) => {
         setSlideNumber(index)
         setOpenModal(true)
-        if(openModal) {
+        if(openModal == true) {
             backgroundRef.current.style.backgroundColor = "background-color: rgba(0, 0, 0, 0.8);"
         } else {
             backgroundRef.current.style.backgroundColor = "white"
