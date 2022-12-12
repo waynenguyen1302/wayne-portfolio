@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState,useRef } from "react";
 import './index.scss';
 import portfolioData from "./data";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -8,10 +8,16 @@ import { motion } from "framer-motion";
 const Portfolios = () => {
     const [slideNumber,setSlideNumber] = useState(0)
     const [openModal, setOpenModal] = useState(false)
+    const backgroundRef = useRef();
 
     const handleOpenModal = (index) => {
         setSlideNumber(index)
         setOpenModal(true)
+        if(openModal) {
+            backgroundRef.current.style.backgroundColor = "background-color: rgba(0, 0, 0, 0.8);"
+        } else {
+            backgroundRef.current.style.backgroundColor = "white"
+        }
     }
 
     // Close image
@@ -33,7 +39,7 @@ const Portfolios = () => {
     }
 
     return (
-            <div className="portfolio-list">
+            <div className="portfolio-list" ref={backgroundRef}>
                  {openModal && 
                     <div className='galleryWrap'>
                         <div class="all-btn">
