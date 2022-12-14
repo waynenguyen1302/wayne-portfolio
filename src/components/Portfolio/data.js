@@ -33,7 +33,14 @@ const Portfolios = [
         title: "TocToc Clone",
         description: "TypeScript, React, NEXTjs, Sanity, Tailwind",
         url: "https://toctoc-clone-wsmz.vercel.app/"
-    }
+    },
+    {
+        cover: "portfolio/mystore-ecommerce/mystore.png",
+        image:"portfolio/mystore-ecommerce/mystore.png",
+        title: "Ecommerce Website",
+        description: "NEXTjs, React Context API, Sanity",
+        url: "https://my-store-ecommerce-wn.vercel.app/"
+    },
 ]
 
 export default Portfolios
