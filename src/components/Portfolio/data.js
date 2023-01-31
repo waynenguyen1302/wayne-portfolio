@@ -31,7 +31,7 @@ const Portfolios = [
         cover: "portfolio/toctoc-clone/toctoc-clone.png",
         image:"portfolio/toctoc-clone/toctoc-clone.png",
         title: "TocToc Clone",
-        description: "TypeScript, React, NEXTjs, Sanity, Tailwind",
+        description: "TypeScript, NEXTjs, Sanity, Tailwind",
         url: "https://toctoc-clone-wsmz.vercel.app/"
     },
     {

@@ -26,7 +26,13 @@ function TextSphere() {
           'After Effect',
           'PHP',
           "C#",
-          'JQuery'
+          'JQuery',
+          'TypeScript',
+          'MongoDB',
+          'Azure',
+          'Nextjs',
+          'Nodejs'
+
         ],
         {
           radius: 400,
