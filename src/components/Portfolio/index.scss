@@ -155,7 +155,8 @@
                 
                 
                 .btnClose {
-                    position: fixed;
+                    position: -webkit-sticky;
+                    position: sticky;
                     cursor: pointer;
                     top: 40px;
                     right: 40px;

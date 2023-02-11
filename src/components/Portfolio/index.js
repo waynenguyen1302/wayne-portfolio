@@ -21,36 +21,7 @@
                 }
     }, [])
     
-    // const renderPortfolio = (portfolio) => {
-    //     return (
-    //         <div className="images-container">
-    //             {
-    //                 portfolio.map((port, idx) => {
-    //                     return (
-    //                         <div className="image-box" key={idx}>
-    //                             <img 
-    //                             src={port.image}
-    //                             className="portfolio-image" 
-    //                             alt="portfolio"
-    //                             />
-    //                             <div className="content">
-    //                                 <p className="title">{port.title}</p>
-    //                                 <h4 className="description">{port.description}</h4>
-    //                                 <button className="btn" onClick={() => setButtonPopup(true)}>View</button>          
-    //                             </div>     
-    //                             <div className="full-image">
-    //                                 <img 
-    //                                     src = {port.image}
-    //                                 />    
-    //                             </div>                     
-    //                         </div>
-    //                     )
-    //                 })
-    //             }
-    //         </div>
-    //     );
-    // }  
-
+    
     return (
         <>
             <div className="container portfolio-page">
