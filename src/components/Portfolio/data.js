@@ -38,8 +38,15 @@ const Portfolios = [
         cover: "portfolio/mystore-ecommerce/mystore.png",
         image:"portfolio/mystore-ecommerce/mystore.png",
         title: "Ecommerce Website",
-        description: "NEXTjs, React Context API, Sanity",
+        description: "NEXTjs, Sanity, Stripe",
         url: "https://my-store-ecommerce-wn.vercel.app/"
+    },
+    {
+        cover: "portfolio/admin-dashboard/admin-cover.png",
+        image:"portfolio/admin-dashboard/admin-dashboard.png",
+        title: "Admin Dashboard",
+        description: "Reactjs, SASS",
+        url: "https://admin-dashboard-nine-eta.vercel.app/users"
     },
 ]
 

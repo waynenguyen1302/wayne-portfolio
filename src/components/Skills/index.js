@@ -30,7 +30,7 @@ const Skills = () => {
                         />
                     </h1>
                     <p>
-                        I'm well equipped with web-development technologies such as <a>HTML, CSS, Bootstrap, Sass, ASP.NET, JavaScript, React, NEXTjs, Express, SQL, MongoDB, Azure,</a> etc.
+                        I'm well equipped with web-development technologies such as <a>HTML, CSS, Bootstrap, Sass, ASP.NET, JavaScript, React, TypeScript, NEXTjs, Express, SQL, MongoDB, Azure,</a> etc.
                     </p>
                     <p>
                         My experience in the marketing and communications world also allow me to understand the customer insights, to communicate and deliver the best customer service! 
