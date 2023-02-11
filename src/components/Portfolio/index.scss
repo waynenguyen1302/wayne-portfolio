@@ -130,72 +130,78 @@
         }
     }
 
-    .galleryWrap {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        width: 100%;
-        height: 100%;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        position: fixed;
-        z-index: 10;
-         
+    .portfolio-list {
+        position:relative;
 
-        .all-btn {
-            color: #fff;
-            opacity: 1;
-            position: relative;
-            
-            
-            .btnClose {
-                position: fixed;
-                cursor: pointer;
-                top: 40px;
-                right: 40px;
-                z-index: 999;
-            }
-
-            .btnPrev{
-                position: fixed;
-                cursor: pointer;
-                top: 50%;
-                left: 100px;
-                z-index: 999;
-            }
-
-            .btnNext{
-                position: fixed;
-                cursor: pointer;
-                top: 50%;
-                right: 100px;
-                z-index: 999;
-            }
-        }
-            
-
-        .fullScreenImage {
-            position: absolute;
-            top: 0;
-            left: 0;
+        .galleryWrap {
             display: flex;
             justify-content: center;
-            background-color: rgba(0, 0, 0, 0.8);
-            z-index: 998;
+            align-items: center;
+            flex-direction: column;
             width: 100%;
-            height: auto;
-            overflow: hidden;            
+            height: 100%;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            position: fixed;
+            z-index: 10;
+            
 
-            img {
-                width: 70%;
-                margin: auto;                    
-                overflow: visible;
+            .all-btn {
+                color: #fff;
+                opacity: 1;
+                position: relative;
+                
+                
+                .btnClose {
+                    position: fixed;
+                    cursor: pointer;
+                    top: 40px;
+                    right: 40px;
+                    z-index: 999;
+                }
+
+                .btnPrev{
+                    position: fixed;
+                    cursor: pointer;
+                    top: 50%;
+                    left: 100px;
+                    z-index: 999;
+                }
+
+                .btnNext{
+                    position: fixed;
+                    cursor: pointer;
+                    top: 50%;
+                    right: 100px;
+                    z-index: 999;
+                }
+            }
+                
+
+            .fullScreenImage {
+                position: absolute;
+                top: 0;
+                left: 0;
+                display: flex;
+                justify-content: center;
+                background-color: rgba(0, 0, 0, 0.8);
+                z-index: 998;
+                width: 100%;
+                height: auto;
+                overflow: hidden;            
+
+                img {
+                    width: 70%;
+                    margin: auto;                    
+                    overflow: visible;
+                }
             }
         }
     }
+
+    
 
     
 }
