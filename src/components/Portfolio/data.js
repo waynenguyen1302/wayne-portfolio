@@ -43,7 +43,7 @@ const Portfolios = [
     },
     {
         cover: "portfolio/admin-dashboard/admin-cover.png",
-        image:"portfolio/admin-dashboard/admin-dashboard.png",
+        image: "portfolio/admin-dashboard/admin-dashboard.png",
         title: "Admin Dashboard",
         description: "Reactjs, SASS",
         url: "https://admin-dashboard-nine-eta.vercel.app/users"
