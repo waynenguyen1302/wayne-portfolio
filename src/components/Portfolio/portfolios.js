@@ -42,9 +42,7 @@ const Portfolios = () => {
                             <FontAwesomeIcon icon={faCircleChevronRight} className='btnNext' onClick={nextImage} font-size="3em"/>
                         </div>
                                                     
-                        <div                           
-                            className='fullScreenImage'
-                        >
+                        <div className='fullScreenImage'>
                             <motion.img 
                                 initial={{ scale: 0 }}
                                 animate={{ scale: 1 }}
