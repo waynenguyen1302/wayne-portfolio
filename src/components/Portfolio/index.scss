@@ -131,7 +131,6 @@
     }
 
     .portfolio-list {
-        position:relative;
 
         .galleryWrap {
             display: flex;
@@ -151,12 +150,11 @@
             .all-btn {
                 color: #fff;
                 opacity: 1;
-                position: relative;
+                position: fixed;
                 
                 
                 .btnClose {
-                    position: -webkit-sticky;
-                    position: sticky;
+                    position: fixed;
                     cursor: pointer;
                     top: 40px;
                     right: 40px;
