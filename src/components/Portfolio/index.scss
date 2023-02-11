@@ -151,11 +151,11 @@
             .all-btn {
                 color: #fff;
                 opacity: 1;
-                position: fixed;
+                position: relative;
                 
                 
                 .btnClose {
-                    position: fixed;
+                    position: absolute;
                     cursor: pointer;
                     top: 40px;
                     right: 40px;
