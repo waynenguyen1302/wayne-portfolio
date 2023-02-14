@@ -4,7 +4,7 @@ import portfolioData from "./data";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleChevronLeft, faCircleChevronRight, faCircleXmark } from "@fortawesome/free-solid-svg-icons";
 import { motion } from "framer-motion";
-import { Link } from "react-router-dom";
+
 
 const Portfolios = () => {
     const [slideNumber,setSlideNumber] = useState(0)
@@ -67,9 +67,9 @@ const Portfolios = () => {
                                 <div className="content" key={idx}>
                                     <p className="title">{port.title}</p>
                                     <h4 className="description">{port.description}</h4>
-                                    <Link to = {port.url} style={{textDecoration:"none"}}>
+                                    <a href={port.url}>
                                         <h4 className="description">{port.url}</h4>
-                                    </Link>                                    
+                                    </a>                                    
                                     <button className="btn" onClick={ () => handleOpenModal(idx)}>View</button>          
                                 </div>     
                                 {/* <div className="full-image">
