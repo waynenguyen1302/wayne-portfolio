@@ -48,6 +48,13 @@ const Portfolios = [
         description: "Reactjs, SASS",
         url: "https://admin-dashboard-nine-eta.vercel.app/users"
     },
+    {
+        cover: "portfolio/booknow/booknow-cover.png",
+        image: "portfolio/booknow/booknow.png",
+        title: "Booknow.com - My First MERN App",
+        description: "MongoDB, Express, React, Node",
+        url: "https://booknow-com-frontend.onrender.com/"
+    },
 ]
 
 export default Portfolios
