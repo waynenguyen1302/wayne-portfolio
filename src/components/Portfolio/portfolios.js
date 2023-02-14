@@ -67,7 +67,7 @@ const Portfolios = () => {
                                 <div className="content" key={idx}>
                                     <p className="title">{port.title}</p>
                                     <h4 className="description">{port.description}</h4>
-                                    <a href={port.url}>
+                                    <a href={port.url} target="_blank">
                                         <h4 className="description">{port.url}</h4>
                                     </a>                                    
                                     <button className="btn" onClick={ () => handleOpenModal(idx)}>View</button>          
