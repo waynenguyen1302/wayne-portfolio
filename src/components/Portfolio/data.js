@@ -55,6 +55,13 @@ const Portfolios = [
         description: "MongoDB, Express, React, Node",
         url: "https://booknow-com-frontend.onrender.com/"
     },
+    {
+        cover: "portfolio/booknow/banhmioi.png",
+        image: "portfolio/booknow/banhmioi.png",
+        title: "Banh Mi Oi",
+        description: "HTML, CSS, Javascript",
+        url: "https://banhmioi-waynenguyen1302.vercel.app/"
+    },
 ]
 
 export default Portfolios
