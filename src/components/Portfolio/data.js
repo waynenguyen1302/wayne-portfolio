@@ -56,8 +56,8 @@ const Portfolios = [
         url: "https://booknow-com-frontend.onrender.com/"
     },
     {
-        cover: "portfolio/booknow/banhmioi.png",
-        image: "portfolio/booknow/banhmioi.png",
+        cover: "portfolio/banhmioi/banhmioi.png",
+        image: "portfolio/banhmioi/banhmioi.png",
         title: "Banh Mi Oi",
         description: "HTML, CSS, Javascript",
         url: "https://banhmioi-waynenguyen1302.vercel.app/"
