@@ -60,7 +60,7 @@ const Portfolios = [
         image: "portfolio/banhmioi/banhmioi.png",
         title: "Banh Mi Oi",
         description: "HTML, CSS, Javascript",
-        url: "https://banhmioi-waynenguyen1302.vercel.app/"
+        url: "https://banhmioi-git-master-waynenguyen1302.vercel.app/"
     },
 ]
 
