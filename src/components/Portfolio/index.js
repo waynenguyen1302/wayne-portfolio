@@ -32,9 +32,7 @@
                         idx={15}
                     />
                 </h1>
-                {/* <div>{renderPortfolio(portfolioData.portfolio)}</div> */}
-                <Portfolios />  
-                
+                <Portfolios />               
             </div>
             <Loader type="ball-grid-pulse" />
         </>

@@ -72,12 +72,6 @@ const Portfolios = () => {
                                     </a>                                    
                                     <button className="btn" onClick={ () => handleOpenModal(idx)}>View</button>          
                                 </div>     
-                                {/* <div className="full-image">
-                                    <img 
-                                        src = {port.image}
-                                        alt='portfolio'
-                                    />    
-                                </div>                      */}
                             </div>
                         )
                     })

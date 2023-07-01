@@ -62,6 +62,13 @@ const Portfolios = [
         description: "HTML, CSS, Javascript",
         url: "https://banhmioi-git-master-waynenguyen1302.vercel.app/"
     },
+    {
+        cover: "portfolio/wnfashion/wnfashion.png",
+        image: "portfolio/wnfashion/wnfashion.png",
+        title: "WayneStore",
+        description: "React, Redux, Strapi, SASS",
+        url: "https://wnfashion-ecommerce.onrender.com/"
+    },
 ]
 
 export default Portfolios
