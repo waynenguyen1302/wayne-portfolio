@@ -67,7 +67,14 @@ const Portfolios = [
         image: "portfolio/wnfashion/wnfashion.png",
         title: "WayneStore",
         description: "React, Redux, Strapi, SASS",
-        url: "https://wnfashion-ecommerce.onrender.com/"
+        url: ""
+    },
+    {
+        cover: "portfolio/wnfashion/wnfashion-express.png",
+        image: "portfolio/wnfashion/wnfashion-express.png",
+        title: "WayneStore",
+        description: "MongoDB, Express, React, SASS",
+        url: "https://wnfashion-express.onrender.com/"
     },
 ]
 
