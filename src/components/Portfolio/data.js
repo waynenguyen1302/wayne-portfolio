@@ -76,6 +76,13 @@ const Portfolios = [
         description: "MongoDB, Express, React, SASS",
         url: "https://wnfashion-express.onrender.com/"
     },
+    {
+        cover: "portfolio/vueQuiz/vueQuiz.png",
+        image: "portfolio/vueQuizs/vueQuiz.png",
+        title: "Vue Quiz",
+        description: "Vue",
+        url: "https://vue-quiz-t2a8.onrender.com/"
+    },
 ]
 
 export default Portfolios
