@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/wayne-portfolio/static/css/main.a9484d07.css",
+    "main.css": "/wayne-portfolio/static/css/main.150fe709.css",
     "main.js": "/wayne-portfolio/static/js/main.23d06fe1.js",
     "static/js/770.1725f1dc.chunk.js": "/wayne-portfolio/static/js/770.1725f1dc.chunk.js",
     "static/js/787.a2cb61a6.chunk.js": "/wayne-portfolio/static/js/787.a2cb61a6.chunk.js",
@@ -11,13 +11,13 @@
     "static/media/LaBelleAurore.woff2": "/wayne-portfolio/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
     "static/media/CoolveticaRg-Regular.woff2": "/wayne-portfolio/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/wayne-portfolio/index.html",
-    "main.a9484d07.css.map": "/wayne-portfolio/static/css/main.a9484d07.css.map",
+    "main.150fe709.css.map": "/wayne-portfolio/static/css/main.150fe709.css.map",
     "main.23d06fe1.js.map": "/wayne-portfolio/static/js/main.23d06fe1.js.map",
     "770.1725f1dc.chunk.js.map": "/wayne-portfolio/static/js/770.1725f1dc.chunk.js.map",
     "787.a2cb61a6.chunk.js.map": "/wayne-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a9484d07.css",
+    "static/css/main.150fe709.css",
     "static/js/main.23d06fe1.js"
   ]
 }
