@@ -132,6 +132,7 @@
 
     .portfolio-list {
         height: 100%;
+        position: relative;
 
         .galleryWrap {
             display: flex;
@@ -192,11 +193,16 @@
 
         }
         .galleryWrap:after {
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
             content: "";
-                width: 100vw;
-                height: 100%;
-                background-color: rgba(0, 0, 0, 0.8);
-                z-index: 998;
+            width: 100vw;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+            z-index: 998;
         }
     }
 
