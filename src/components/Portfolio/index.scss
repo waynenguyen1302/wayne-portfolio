@@ -4,7 +4,7 @@
     width: calc(100% - 150px);
     position: initial;
     height: 100%;
-    overflow-x: hidden;
+    overflow: hidden;
 
     h1.page-title {
         margin-left: 100px;
@@ -135,10 +135,18 @@
         display: flex;
         justify-content: center;
         overflow-y: scroll;
+        height: 60vh;
 
-        &:-webkit-scrollbar {
-            width: 0; 
-        }
+        &::-webkit-scrollbar {
+            width: 0; /* Width of the scrollbar */
+          }
+        
+          &::-webkit-scrollbar-thumb {
+            background-color: rgba(0, 0, 0, 0); /* Color of the scrollbar thumb */
+          }
+        
+          /* Firefox */
+          scrollbar-width: none; /* Hide the scrollbar in Firefox */
         
 
         .galleryWrap {
