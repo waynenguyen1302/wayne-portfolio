@@ -179,9 +179,6 @@
                 
 
             .fullScreenImage {
-                position: absolute;
-                top: 0;
-                left: 0;
                 display: flex;
                 justify-content: center;                
                 z-index: 998;
@@ -196,12 +193,6 @@
                 }
             }
 
-            .fullScreenImage:before {
-                content: "";
-                width: 100vw;
-                height: 100vh;
-                background-color: rgba(0, 0, 0, 0.8);
-            }
         }
         .galleryWrap:after {
             content: "";
