@@ -13,6 +13,7 @@ const Portfolios = () => {
     const handleOpenModal = (index) => {
         setSlideNumber(index)
         setOpenModal(true)
+        window.scrollTo(0, 0);
     }
 
     // Close image
