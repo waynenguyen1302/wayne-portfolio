@@ -133,6 +133,8 @@
     .portfolio-list {
         height: 100%;
         position: relative;
+        display: flex;
+        justify-content: center;
 
         .galleryWrap {
             display: flex;
@@ -187,6 +189,9 @@
                     width: 80%;
                     margin: auto;                    
                     overflow: visible;
+                    position: absolute;
+                    top: 0;
+                    z-index: 998;
                 }
 
                 &:after {
