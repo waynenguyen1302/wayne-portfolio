@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/wayne-portfolio/static/css/main.758d35d7.css",
-    "main.js": "/wayne-portfolio/static/js/main.e6d7a2ea.js",
+    "main.css": "/wayne-portfolio/static/css/main.75a99ab8.css",
+    "main.js": "/wayne-portfolio/static/js/main.75efcf47.js",
     "static/js/770.1725f1dc.chunk.js": "/wayne-portfolio/static/js/770.1725f1dc.chunk.js",
     "static/js/787.a2cb61a6.chunk.js": "/wayne-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/Wayne_Nguyen_Resume.pdf": "/wayne-portfolio/static/media/Wayne_Nguyen_Resume.65030bf6eb244096efbc.pdf",
@@ -11,13 +11,13 @@
     "static/media/LaBelleAurore.woff2": "/wayne-portfolio/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
     "static/media/CoolveticaRg-Regular.woff2": "/wayne-portfolio/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/wayne-portfolio/index.html",
-    "main.758d35d7.css.map": "/wayne-portfolio/static/css/main.758d35d7.css.map",
-    "main.e6d7a2ea.js.map": "/wayne-portfolio/static/js/main.e6d7a2ea.js.map",
+    "main.75a99ab8.css.map": "/wayne-portfolio/static/css/main.75a99ab8.css.map",
+    "main.75efcf47.js.map": "/wayne-portfolio/static/js/main.75efcf47.js.map",
     "770.1725f1dc.chunk.js.map": "/wayne-portfolio/static/js/770.1725f1dc.chunk.js.map",
     "787.a2cb61a6.chunk.js.map": "/wayne-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.758d35d7.css",
-    "static/js/main.e6d7a2ea.js"
+    "static/css/main.75a99ab8.css",
+    "static/js/main.75efcf47.js"
   ]
 }
