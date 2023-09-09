@@ -1,9 +1,9 @@
 const Portfolios = [
     {
-      cover: "portfolio/vueQuiz/vueQuiz.png",
-      image: "portfolio/vueQuiz/vueQuiz.png",
+      cover: "portfolio/vue-quiz/vue-quiz.png",
+      image: "portfolio/vue-quiz/vue-quiz.png",
       title: "Vue Quiz",
-      description: "Vue",
+      description: "Vue, CSS",
       url: "https://vue-quiz-t2a8.onrender.com/"
     },
     {
