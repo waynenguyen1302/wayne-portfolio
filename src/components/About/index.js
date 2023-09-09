@@ -30,12 +30,40 @@ const About = () => {
                         />
                     </h1>
                     <p>
-                        As an aspiring front-end developer learning to be full-stack, I find it fascinating to create and design things that solve real world problems. I value teamwork, efficiency and customer service.
+                        Hello, this is Wayne, an aspiring full-stack developer with a passion for crafting digital solutions to real-world challenges. I've embarked on an exciting journey, expanding my skills from front-end development into the realms of full-stack development. My goal is to create elegant, user-centric solutions that not only look great but also function seamlessly.
+                    </p>
+                    <h2>
+                        <AnimatedLetters 
+                            letterClass={letterClass}
+                            strArray={['A',' ','C','r','e','a','t','i','v','e',' ','J','o','u','r','n','e','y']}
+                            idx={15}
+                        />
+                    </h2>
+                    <p>
+                        My fascination with technology began back in the days of Windows 96, where I honed my creative skills using Microsoft Paint. Over the years, I've evolved alongside technology, embracing new tools and techniques to stay at the forefront of the digital landscape. From Photoshop to Illustrator and even animation, I've fearlessly ventured into various creative realms. While I can't promise you a full episode of Tom and Jerry (although who knows, I might surprise you if you ask), this diverse experience has equipped me with the ability to craft visually stunning websites that prioritize both form and function.
+                    </p>
+                    <h2>
+                        <AnimatedLetters 
+                            letterClass={letterClass}
+                            strArray = {['V', 'a', 'l', 'u', 'e', 's', ' ', 'T', 'h', 'a', 't', ' ', 'D', 'r', 'i', 'v', 'e', ' ', 'M', 'e']}
+                            idx={15}
+                        />
+                    </h2>     
+                    <p>
+                        In my work, I hold three core values close to heart:
                     </p>
                     <p>
-                        I have been using Microsoft Paint since Windows 96, many moons ago. As technology evolve, picking up new skills is a necessity. Whether it's Photoshop, Illustrator, or Animation, I'm not afraid of getting my hands dirty. I can't promise you a full episode of Tom and Jerry (who knows? may be I can if you ask), but the experience definitely allows me to come up with sleek and visually appealing websites while maintaining its functionality and usability.
+                        <span>1. Teamwork:</span> I thrive in collaborative environments where ideas flourish, and creativity knows no bounds. I value the unique perspectives that each team member brings to the table, as I believe that the most innovative solutions are born from collective effort.
                     </p>
-               
+                    <p>
+                        <span>2. Efficiency:</span> I'm dedicated to optimizing processes and workflows to maximize efficiency. In the fast-paced world of technology, time is a valuable resource, and I'm committed to delivering solutions that respect both your time and the end user's experience.
+                    </p> 
+                    <p>
+                        <span>3. Customer Service:</span> Ultimately, the success of any project hinges on the satisfaction of its users. I'm driven by a commitment to providing top-notch customer service, ensuring that the end product not only meets but exceeds expectations.
+                    </p>   
+                    <p>
+                        Thank you for taking the time to get to know me. I'm excited to continue my journey as a full-stack developer, tackling new challenges, and creating meaningful digital experiences.
+                    </p>        
                 </div>
 
                 <div className='stage-cube-cont'>
