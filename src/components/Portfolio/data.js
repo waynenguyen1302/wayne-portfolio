@@ -1,96 +1,103 @@
 const Portfolios = [
-    {
-      cover: "portfolio/vue-quiz/vue-quiz.png",
-      image: "portfolio/vue-quiz/vue-quiz.png",
-      title: "Vue Quiz",
-      description: "Vue, CSS",
-      url: "https://vue-quiz-t2a8.onrender.com/"
-    },
-    {
-      cover: "portfolio/wnfashion-express/wnfashion-express.png",
-      image: "portfolio/wnfashion-express/wnfashion-express.png",
-      title: "WayneStore",
-      description: "MongoDB, Express, React, SASS",
-      url: "https://wnfashion-express.onrender.com/"
-    },
-    {
-      cover: "portfolio/wnfashion/wnfashion.png",
-      image: "portfolio/wnfashion/wnfashion.png",
-      title: "WayneStore",
-      description: "React, Redux, Strapi, SASS",
-      url: ""
-    },
-    {
-      cover: "portfolio/banhmioi/banhmioi.png",
-      image: "portfolio/banhmioi/banhmioi.png",
-      title: "Banh Mi Oi",
-      description: "HTML, CSS, Javascript",
-      url: "https://banhmioi-git-master-waynenguyen1302.vercel.app/"
-    },
-    {
-      cover: "portfolio/booknow/booknow-cover.png",
-      image: "portfolio/booknow/booknow.png",
-      title: "Booknow.com - My First MERN App",
-      description: "MongoDB, Express, React, Node",
-      url: "https://booknow-com-frontend.onrender.com/"
-    },
-    {
-      cover: "portfolio/admin-dashboard/admin-cover.png",
-      image: "portfolio/admin-dashboard/admin-dashboard.png",
-      title: "Admin Dashboard",
-      description: "Reactjs, SASS",
-      url: "https://admin-dashboard-nine-eta.vercel.app/users"
-    },
-    {
-      cover: "portfolio/mystore-ecommerce/mystore.png",
-      image: "portfolio/mystore-ecommerce/mystore.png",
-      title: "Ecommerce Website",
-      description: "NEXTjs, Sanity, Stripe",
-      url: "https://my-store-ecommerce-wn.vercel.app/"
-    },
-    {
-      cover: "portfolio/toctoc-clone/toctoc-clone.png",
-      image: "portfolio/toctoc-clone/toctoc-clone.png",
-      title: "TocToc Clone",
-      description: "TypeScript, NEXTjs, Sanity, Tailwind",
-      url: "https://toctoc-clone-wsmz.vercel.app/"
-    },
-    {
-      cover: "portfolio/task-tracker/task-tracker.png",
-      image: "portfolio/task-tracker/task-tracker.png",
-      title: "Personal Task Tracker",
-      description: "Express, Handlebars",
-      url: "https://tasktracker-app-n1rh.onrender.com/"
-    },
-    {
-      cover: "portfolio/smoothie-on-earth/smoothie-on-earth.png",
-      image: "portfolio/smoothie-on-earth/smoothie-on-earth.png",
-      title: "Smoothie On Earth",
-      description: "HTML, CSS, JavaScript",
-      url: ""
-    },
-    {
-      cover: "portfolio/dmc-college-project/dmc.png",
-      image: "portfolio/dmc-college-project/dmc.png",
-      title: "DMC - College Project",
-      description: "HTML, CSS, JavaScript",
-      url: ""
-    },
-    {
-      cover: "portfolio/chayTO/chayTO-cover.png",
-      image: "portfolio/chayTO/chayTO.png",
-      title: "Chay Toronto",
-      description: "Wordpress, HTML, CSS",
-      url: ""
-    },
-    {
-      cover: "portfolio/nirvana/nirvana-cover.png",
-      image: "portfolio/nirvana/nirvana.png",
-      title: "Nirvana Spa",
-      description: "Wordpress, HTML, CSS",
-      url: ""
-    }
-  ];
-  
-  export default Portfolios;
-  
+  {
+    cover: '/portfolio/saigonpho/saigonpho.png',
+    image: '/portfolio/saigonpho/saigonpho.png',
+    video: 'https://www.youtube.com/embed/dDQIWObeuxw',
+    title: 'Saigon Pho and More',
+    description: 'React, SASS',
+    url: 'https://www.saigonphoandmore.ca/',
+  },
+  {
+    cover: '/portfolio/vue-quiz/vue-quiz.png',
+    image: '/portfolio/vue-quiz/vue-quiz.png',
+    title: 'Vue Quiz',
+    description: 'Vue, CSS',
+    url: 'https://vue-quiz-t2a8.onrender.com/',
+  },
+  {
+    cover: '/portfolio/wnfashion-express/wnfashion-express.png',
+    image: '/portfolio/wnfashion-express/wnfashion-express.png',
+    title: 'WayneStore',
+    description: 'MongoDB, Express, React, SASS',
+    url: 'https://wnfashion-express.onrender.com/',
+  },
+  {
+    cover: '/portfolio/wnfashion/wnfashion.png',
+    image: '/portfolio/wnfashion/wnfashion.png',
+    title: 'WayneStore',
+    description: 'React, Redux, Strapi, SASS',
+    url: '',
+  },
+  {
+    cover: '/portfolio/banhmioi/banhmioi.png',
+    image: '/portfolio/banhmioi/banhmioi.png',
+    title: 'Banh Mi Oi',
+    description: 'HTML, CSS, Javascript',
+    url: 'https://banhmioi-git-master-waynenguyen1302.vercel.app/',
+  },
+  {
+    cover: '/portfolio/booknow/booknow-cover.png',
+    image: '/portfolio/booknow/booknow.png',
+    title: 'Booknow.com - My First MERN App',
+    description: 'MongoDB, Express, React, Node',
+    url: 'https://booknow-com-frontend.onrender.com/',
+  },
+  {
+    cover: '/portfolio/admin-dashboard/admin-cover.png',
+    image: '/portfolio/admin-dashboard/admin-dashboard.png',
+    title: 'Admin Dashboard',
+    description: 'React, SASS',
+    url: 'https://admin-dashboard-nine-eta.vercel.app/users',
+  },
+  {
+    cover: '/portfolio/mystore-ecommerce/mystore.png',
+    image: '/portfolio/mystore-ecommerce/mystore.png',
+    title: 'Ecommerce Website',
+    description: 'NEXTjs, Sanity, Stripe',
+    url: 'https://my-store-ecommerce-wn.vercel.app/',
+  },
+  {
+    cover: '/portfolio/toctoc-clone/toctoc-clone.png',
+    image: '/portfolio/toctoc-clone/toctoc-clone.png',
+    title: 'TocToc Clone',
+    description: 'TypeScript, NEXTjs, Sanity, Tailwind',
+    url: 'https://toctoc-clone-wsmz.vercel.app/',
+  },
+  {
+    cover: '/portfolio/task-tracker/task-tracker.png',
+    image: '/portfolio/task-tracker/task-tracker.png',
+    title: 'Personal Task Tracker',
+    description: 'Express, Handlebars',
+    url: 'https://tasktracker-app-n1rh.onrender.com/',
+  },
+  {
+    cover: '/portfolio/smoothie-on-earth/smoothie-on-earth.png',
+    image: '/portfolio/smoothie-on-earth/smoothie-on-earth.png',
+    title: 'Smoothie On Earth',
+    description: 'HTML, CSS, JavaScript',
+    url: '',
+  },
+  {
+    cover: '/portfolio/dmc-college-project/dmc.png',
+    image: '/portfolio/dmc-college-project/dmc.png',
+    title: 'DMC - College Project',
+    description: 'HTML, CSS, JavaScript',
+    url: '',
+  },
+  {
+    cover: '/portfolio/chayTO/chayTO-cover.png',
+    image: '/portfolio/chayTO/chayTO.png',
+    title: 'Chay Toronto',
+    description: 'Wordpress, HTML, CSS',
+    url: '',
+  },
+  {
+    cover: '/portfolio/nirvana/nirvana-cover.png',
+    image: '/portfolio/nirvana/nirvana.png',
+    title: 'Nirvana Spa',
+    description: 'Wordpress, HTML, CSS',
+    url: '',
+  },
+]
+
+export default Portfolios
