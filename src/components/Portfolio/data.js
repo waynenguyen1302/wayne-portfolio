@@ -2,7 +2,7 @@ const Portfolios = [
   {
     cover: '/portfolio/saigonpho/saigonpho.png',
     image: '/portfolio/saigonpho/saigonpho.png',
-    video: 'https://www.youtube.com/embed/dDQIWObeuxw',
+    video: 'https://www.youtube.com/embed/ry933ehkmsU',
     title: 'Saigon Pho and More',
     description: 'React, SASS',
     url: 'https://www.saigonphoandmore.ca/',
