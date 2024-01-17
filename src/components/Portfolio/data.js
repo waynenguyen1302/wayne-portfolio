@@ -11,7 +11,7 @@ const Portfolios = [
     cover: '/portfolio/developer-portfolio/devPortfolio.png',
     image: '/portfolio/developer-portfolio/devPortfolio.png',
     video: 'https://www.youtube.com/embed/ruJlhNv-Dg8',
-    title: 'Saigon Pho and More',
+    title: 'Developer Portfolio',
     description: 'Handlebars, Express, SASS',
     url: 'https://another-portfolio.onrender.com/',
   },
