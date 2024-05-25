@@ -7,6 +7,20 @@ const Portfolios = [
     url: 'https://www.bluefinenterprises.com/',
   },
   {
+    cover: '/portfolio/officecubicles/officecubicles.jpeg',
+    image: '/portfolio/officecubicles/officecubicles.jpeg',
+    title: 'OfficeCubicles.com',
+    description: 'Nextjs, TailwindCSS, PayloadCMS',
+    url: 'https://www.officecubicles.com/',
+  },
+  {
+    cover: '/portfolio/spraypaintbooths/spraypaintbooths.jpeg',
+    image: '/portfolio/spraypaintbooths/spraypaintbooths.jpeg',
+    title: 'SprayPaintBooths.com',
+    description: 'Nextjs, TailwindCSS, PayloadCMS',
+    url: 'https://www.spraypaintbooths.com/',
+  },
+  {
     cover: '/portfolio/saigonpho/saigonpho.png',
     image: '/portfolio/saigonpho/saigonpho.png',
     video: 'https://www.youtube.com/embed/ry933ehkmsU',
