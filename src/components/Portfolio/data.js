@@ -7,6 +7,14 @@ const Portfolios = [
     url: 'https://www.bluefinenterprises.com/',
   },
   {
+    cover: '/portfolio/w3catalog/w3catalog-home.jpeg',
+    image: '/portfolio/w3catalog/w3catalog-home.jpeg',
+    video: 'https://youtu.be/QxnZa0McH5o?si=69m92GEMn3jaWfnx',
+    title: 'W3catalog.com',
+    description: 'Nextjs, TailwindCSS, PayloadCMS',
+    url: '',
+  },
+  {
     cover: '/portfolio/officecubicles/officecubicles.jpeg',
     image: '/portfolio/officecubicles/officecubicles.jpeg',
     title: 'OfficeCubicles.com',

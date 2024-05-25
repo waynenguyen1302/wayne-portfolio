@@ -39,7 +39,7 @@ const Portfolios = () => {
     <div className="portfolio-list">
       {openModal && (
         <div className="galleryWrap">
-          <div class="all-btn">
+          <div className="all-btn">
             <FontAwesomeIcon
               icon={faCircleXmark}
               className="btnClose"
@@ -74,9 +74,11 @@ const Portfolios = () => {
                 width="560"
                 height="315"
                 src={`${portfolioData[slideNumber].video}?autoplay=1&mute=1`}
-                frameborder="0"
-                allowfullscreen
+                frameBorder="0"
+                allowFullScreen
                 className="portfolio-video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerPolicy="strict-origin-when-cross-origin"
               />
             ) : (
               <motion.img
