@@ -4,7 +4,7 @@ import portfolioData from './data';
 import Modal from './Modal';
 import ImageContainer from './ImageContainer';
 
-const Portfolios = () => {
+const PortfolioList = () => {
   const [slideNumber, setSlideNumber] = useState(0);
   const [openModal, setOpenModal] = useState(false);
   const cdnUrl = process.env.REACT_APP_CDN_URL;
@@ -52,4 +52,4 @@ const Portfolios = () => {
   );
 };
 
-export default memo(Portfolios);
+export default memo(PortfolioList);

@@ -3,7 +3,8 @@ import "./index.scss";
 import Loader from "react-loaders";
 import AnimatedLetters from "../AnimatedLetters";
 import { useState, useEffect } from "react";
-import Portfolios from './Portfolios';
+import Portfolios from './PortfolioList';
+import PortfolioList from "./PortfolioList";
 
 const Portfolio = () => {
     const [letterClass, setLetterClass] = useState('text-animate');
@@ -31,7 +32,7 @@ const Portfolio = () => {
                         idx={15}
                     />
                 </h1>
-                <Portfolios />
+                <PortfolioList />
             </div>
             <Loader type="ball-grid-pulse" />
         </>
