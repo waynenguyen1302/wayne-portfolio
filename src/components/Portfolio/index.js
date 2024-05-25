@@ -1,27 +1,26 @@
- import React from "react";
- import "./index.scss";
- import Loader from "react-loaders";
- import AnimatedLetters from "../AnimatedLetters";
- import { useState, useEffect } from "react";
- import Portfolios from "./portfolios";
+import React from "react";
+import "./index.scss";
+import Loader from "react-loaders";
+import AnimatedLetters from "../AnimatedLetters";
+import { useState, useEffect } from "react";
+import Portfolios from './Portfolios';
 
-
- const Portfolio = () => {
-    const [letterClass, setLetterClass] = useState('text-animate') ;
+const Portfolio = () => {
+    const [letterClass, setLetterClass] = useState('text-animate');
 
 
     useEffect(() => {
-        
+
         let timeoutId = setTimeout(() => {
             setLetterClass('text-animate-hover')
         }, 4000)
-        
+
         return () => {
-                    clearTimeout(timeoutId)
-                }
+            clearTimeout(timeoutId)
+        }
     }, [])
-    
-    
+
+
     return (
         <>
             <div className="container portfolio-page">
@@ -32,12 +31,12 @@
                         idx={15}
                     />
                 </h1>
-                <Portfolios />               
+                <Portfolios />
             </div>
             <Loader type="ball-grid-pulse" />
         </>
-        
-    )
- }
 
- export default Portfolio
+    )
+}
+
+export default Portfolio
