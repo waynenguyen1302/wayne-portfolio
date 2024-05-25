@@ -1,5 +1,12 @@
 const Portfolios = [
   {
+    cover: '/portfolio/bluefinenterprises/bluefinenterprises.jpeg',
+    image: '/portfolio/bluefinenterprises/bluefinenterprises.jpeg',
+    title: 'BluefinEnterprises.com',
+    description: 'Nextjs, TailwindCSS',
+    url: 'https://www.bluefinenterprises.com/',
+  },
+  {
     cover: '/portfolio/saigonpho/saigonpho.png',
     image: '/portfolio/saigonpho/saigonpho.png',
     video: 'https://www.youtube.com/embed/ry933ehkmsU',
