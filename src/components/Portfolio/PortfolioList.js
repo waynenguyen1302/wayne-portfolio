@@ -9,10 +9,6 @@ const PortfolioList = () => {
   const [openModal, setOpenModal] = useState(false);
   const cdnUrl = process.env.REACT_APP_CDN_URL;
 
-  if (!cdnUrl) {
-    console.error('CDN URL is not defined. Please set REACT_APP_CDN_URL in your environment variables.');
-  }
-
   const handleOpenModal = useCallback((index) => {
     setSlideNumber(index);
     setOpenModal(true);
