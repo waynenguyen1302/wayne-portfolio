@@ -56,4 +56,4 @@ const PortfolioList = () => {
   );
 };
 
-export default memo(PortfolioList);
+export default PortfolioList;
