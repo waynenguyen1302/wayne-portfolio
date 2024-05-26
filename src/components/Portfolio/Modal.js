@@ -39,7 +39,7 @@ const Modal = ({
           initial={{ scale: 0 }}
           animate={{ scale: 1 }}
           transition={{ duration: 1 }}
-          src={`${cdnUrl}/${portfolioData[slideNumber].image}`}
+          src={`https://waynebuildsweb.b-cdn.net/${portfolioData[slideNumber].image}`}
           alt=""
         />
       )}
