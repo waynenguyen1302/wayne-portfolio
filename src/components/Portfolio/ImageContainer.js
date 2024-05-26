@@ -1,11 +1,13 @@
 import React from 'react';
 import PortfolioItem from './PortfolioItem';
 
+const MemorizedPortfolioItem = React.memo(PortfolioItem);
+
 const ImageContainer = ({ portfolioData, handleOpenModal, cdnUrl }) => (
   <div className="images-container">
     {portfolioData.map((port, idx) => (
-      <PortfolioItem
-        key={idx}
+      <MemorizedPortfolioItem
+        key={port.desc}
         port={port}
         idx={idx}
         handleOpenModal={handleOpenModal}
