@@ -3,7 +3,7 @@ import React from 'react';
 const PortfolioItem = React.memo(({ port, idx, handleOpenModal, cdnUrl }) => (
   <div className="image-box" key={idx}>
     <img
-      src={`https://waynebuildsweb.b-cdn.net/${port.image}`}
+      src={`https://waynebuildsweb.b-cdn.net/${port.image}?width=300&height=200`}
       className="portfolio-image"
       alt="portfolio"
       onClick={() => handleOpenModal(idx)}

@@ -1,9 +1,8 @@
-import React, { useState, useCallback } from 'react';
+import React, { useState, useCallback, memo } from 'react';
 import './index.scss';
 import portfolioData from './data';
-
-const Modal = React.lazy(() => import('./Modal'));
-const ImageContainer = React.lazy(() => import('./ImageContainer'));
+import Modal from './Modal';
+import ImageContainer from './ImageContainer';
 
 const PortfolioList = () => {
   const [slideNumber, setSlideNumber] = useState(0);
