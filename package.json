@@ -14,6 +14,7 @@
     "@tsparticles/react": "^3.0.0",
     "animate.css": "^4.1.1",
     "d3-ease": "^3.0.1",
+    "framer-motion": "^11.2.6",
     "leaflet": "^1.9.4",
     "loaders.css": "^0.1.2",
     "react": "^18.2.0",
