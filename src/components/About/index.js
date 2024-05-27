@@ -1,27 +1,44 @@
 import './index.scss'
 import AnimatedLetters from '../AnimatedLetters'
-import { useEffect, useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCss3, faGitAlt, faHtml5, faJsSquare, faPhp, faReact } from '@fortawesome/free-brands-svg-icons'
 import Loader from 'react-loaders'
+import ScrollToReadMore from './ScrollToReadMore';
 
 const About = () => {
-    const [letterClass, setLetterClass] = useState('text-animate')
-    useEffect(() => {
+    const [letterClass, setLetterClass] = useState('text-animate');
+    const [showScrollToReadMore, setShowScrollToReadMore] = useState(true);
+    const textZoneRef = useRef(null);
 
+    useEffect(() => {
         let timeoutId = setTimeout(() => {
             setLetterClass('text-animate-hover')
-        }, 4000)
+        }, 4000);
+
+        const handleScroll = () => {
+            if (textZoneRef.current) {
+                setShowScrollToReadMore(textZoneRef.current.scrollTop === 0);
+            }
+        };
+
+        const textZone = textZoneRef.current;
+        if (textZone) {
+            textZone.addEventListener('scroll', handleScroll);
+        }
 
         return () => {
-            clearTimeout(timeoutId)
+            clearTimeout(timeoutId);
+            if (textZone) {
+                textZone.removeEventListener('scroll', handleScroll);
+            }
         }
-    }, [])
+    }, []);
 
     return (
         <>
-            <div className='container about-page'>
-                <div className='text-zone'>
+            <div className='container about-page' >
+                <div className='text-zone' ref={textZoneRef}>
                     <h1>
                         <AnimatedLetters
                             letterClass={letterClass}
@@ -41,7 +58,6 @@ const About = () => {
                     </h2>
                     <p>
                         My fascination with technology began back in the days of Windows 96, where I first explored creating graphics using Microsoft Paint. This early interest in technology grew into a passion for web development as I embraced new tools and techniques to stay at the forefront of the digital landscape. Over the years, I've transitioned from designing in Photoshop and Illustrator to building interactive websites with HTML, CSS, and JavaScript. My journey has taken me from simple static pages to dynamic, responsive web applications using modern frameworks like React and Next.js. This diverse experience has not only sharpened my design skills but also my ability to create websites that seamlessly blend aesthetics with functionality.
-
                     </p>
                     <h2>
                         <AnimatedLetters
@@ -65,6 +81,10 @@ const About = () => {
                     <p>
                         Thank you for taking the time to get to know me. I'm excited to continue my journey as a full-stack developer, tackling new challenges, and creating meaningful digital experiences.
                     </p>
+
+                    <div className={`scroll-to-read-more ${showScrollToReadMore ? 'visible' : 'hidden'}`}>
+                        <ScrollToReadMore />
+                    </div>
                 </div>
 
                 <div className='stage-cube-cont'>
@@ -90,6 +110,7 @@ const About = () => {
                     </div>
                 </div>
             </div>
+
             <Loader type="ball-grid-pulse" />
         </>
     )
