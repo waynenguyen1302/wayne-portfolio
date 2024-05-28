@@ -41,6 +41,7 @@ const Modal = ({
           transition={{ duration: 1 }}
           src={`https://waynebuildsweb.b-cdn.net/${portfolioData[slideNumber].image}`}
           alt=""
+          loading='lazy'
         />
       )}
     </div>

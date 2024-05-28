@@ -7,6 +7,7 @@ const PortfolioItem = React.memo(({ port, idx, handleOpenModal, cdnUrl }) => (
       className="portfolio-image"
       alt="portfolio"
       onClick={() => handleOpenModal(idx)}
+      loading="lazy"
     />
     <div className="content">
       <p className="title">{port.title}</p>
