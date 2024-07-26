@@ -77,7 +77,7 @@ const Portfolios = [
     image: 'booknow.png',
     title: 'Booknow.com - My First MERN App',
     description: 'MongoDB, Express, React, Node',
-    url: 'https://booknow-com-frontend.onrender.com/',
+    url: 'https://booknow-com-frontend.vercel.app/',
   },
   {
     cover: 'admin-cover.png',
